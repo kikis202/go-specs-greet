@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	go_specs_greet "github.com/kikis202/go-specs-greet/adapters"
+	go_specs_greet "github.com/kikis202/go-specs-greet/adapters/httpserver"
 )
 
 func main() {
