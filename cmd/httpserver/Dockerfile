@@ -8,7 +8,7 @@ RUN go mod download
 
 COPY . .
 
-RUN go build -o srv cmd/httpserver/*.go
+RUN go build -o srv cmd/httpserver/main.go
 
 EXPOSE 8080
 CMD [ "./srv" ]
